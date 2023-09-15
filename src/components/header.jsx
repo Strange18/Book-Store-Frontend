@@ -2,8 +2,8 @@ function HeaderComponent() {
   return (
     <>
       <header>
-        <div className="header-logo">Bookey</div>
-        <nav>
+        <div className="header__logo">Bookey</div>
+        <nav className="header__nav">
           <ul>
             <li>
               <a href="#">Home</a>
