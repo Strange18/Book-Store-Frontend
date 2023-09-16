@@ -6,19 +6,24 @@ function HeaderComponent() {
         <nav className="header__nav">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Books</a>
+              <a href="/">Books</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a href="#">contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </nav>
+        <div className="searchbar">
+          <form action="/" method="post">
+            <input type="text" placeholder="search for books" />
+          </form>
+        </div>
       </header>
     </>
   );

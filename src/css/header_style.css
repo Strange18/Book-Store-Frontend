@@ -1,0 +1,52 @@
+body {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: #dddd;
+}
+.header__logo {
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+header {
+  justify-content: center;
+  display: flex;
+  grid-area: menu;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.header__nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+  padding: 0;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+.App {
+  max-width: 982px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.searchbar {
+  margin: 10px;
+}
+
+.searchbar input[type="text"] {
+  width: 150px;
+  height:9px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
