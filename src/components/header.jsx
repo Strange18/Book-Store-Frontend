@@ -23,7 +23,7 @@ function HeaderComponent() {
         </nav>
         <div className="searchbar">
           <form action="/" method="post">
-            <input type="text" placeholder="search for books" />
+            <input type="text" placeholder="search for materials" />
           </form>
         </div>
       </header>
