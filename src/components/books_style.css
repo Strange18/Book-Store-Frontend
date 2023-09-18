@@ -1,0 +1,30 @@
+.books {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: auto;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  /* border-radius: 20px; */
+  background-color: beige;
+}
+.book-card {
+  display: felx;
+  /* flex-direction: row; */
+  height: 20em;
+  width: auto;
+  border-radius: 40px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: wheat;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title {
+  font-weight: 600;
+}

@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Advertisement from "./components/advertisement";
-import SideBar from "./components/sidebar";
+import Container from "./components/container";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Header />
       <Advertisement />
       <hr />
-      <SideBar />
+      <Container />
+      <Footer />
     </div>
   );
 }
