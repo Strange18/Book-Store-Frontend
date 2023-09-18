@@ -1,5 +1,6 @@
 // import { img } from "./logo192.png";
 import logo192 from "./logo192.png";
+import "./advertisement_style.css";
 
 function AdvertismentComponent() {
   return (

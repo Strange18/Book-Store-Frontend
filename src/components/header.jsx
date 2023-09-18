@@ -1,3 +1,5 @@
+import "./header_style.css";
+
 function HeaderComponent() {
   return (
     <>

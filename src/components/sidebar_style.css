@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  height: auto;
+  width: 200px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  gap: 20px;
+  background-color: rgb(86, 86, 86);
+  align-items: center;
+  border-radius: 40px;
+}
+.items a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+.items {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
